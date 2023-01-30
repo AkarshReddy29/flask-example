@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     print("Flask is ready")
-    return "Flask is ready"
+    return "Flask is ready from Newlocal"
 
 
 if __name__ == "__main__":
