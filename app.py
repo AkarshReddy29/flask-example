@@ -6,6 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     print("Flask is ready")
+    print("Flask is ready branch2")
     return "Flask is ready"
 
 
